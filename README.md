@@ -25,7 +25,7 @@ mvn spring-boot:run
 * Integration tests to cover api functionality tests including some failure cases
 
 ### Example of use
-#### API Endpoint
+#### POST API Endpoint
 ```text
 http://localhost:8080/ticket-report
 ```
