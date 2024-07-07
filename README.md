@@ -25,6 +25,12 @@ mvn spring-boot:run
 * Integration tests to cover api functionality tests including some failure cases
 
 ### Example of use
+#### Request validation rules
+* transactionId cannot be null
+* customers cannot be null
+* customer name cannot be null or empty
+* customer age has to be greater than 0
+
 #### POST API Endpoint
 ```text
 http://localhost:8080/ticket-report
